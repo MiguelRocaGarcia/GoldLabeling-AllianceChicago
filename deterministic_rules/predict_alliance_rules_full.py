@@ -12,7 +12,7 @@ Output columns: PATID_A, PATID_B, rule_pred, rule_id, rule_reason.
 Run from the AnyMatch repo root:
     python deterministic_rules/predict_alliance_rules_full.py `
         --records_parquet data/alliance/MDM_Population_cleaned_v4_2026_06_16.parquet `
-        --pairs_parquet   data/alliance/candidate_pairs_v4_2026_06_11.parquet `
+        --pairs_parquet   data/alliance/candidate_pairs_v5_2026_06_16.parquet `
         --output_csv      data/alliance/deterministic_rules_predictions_full.csv `
         --chunk_size 20000
 """
