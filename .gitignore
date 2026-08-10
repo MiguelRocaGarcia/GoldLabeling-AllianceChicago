@@ -13,3 +13,5 @@ gold_labels.csv
 gold_labeling/gold_labels.csv
 gold_review.csv
 **/*.csv.tmp
+.vscode/
+data/gold_labels/
